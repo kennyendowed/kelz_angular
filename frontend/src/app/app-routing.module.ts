@@ -7,6 +7,8 @@ import { AppLayoutComponent } from './components/_layout/app-layout/app-layout.c
 
 
 import { HomeComponent } from './components/home/home.component';
+import {SignupComponent} from './components/signup/signup.component';
+import {SigninComponent} from './components/signin/signin.component';
 
 const appRoutes: Routes = [
 
@@ -32,8 +34,8 @@ const appRoutes: Routes = [
     },
 
     //no layout routes
-    // { path: 'login', component: LoginComponent},
-    // { path: 'register', component: RegisterComponent },
+    { path: 'login', component: SigninComponent},
+    { path: 'register', component: SignupComponent },
     // otherwise redirect to home
     { path: '**', redirectTo: '' }
 ];

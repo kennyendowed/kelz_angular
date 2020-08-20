@@ -13,6 +13,11 @@ import { SiteLayoutComponent } from './components/_layout/site-layout/site-layou
 import { HomeComponent } from './components/home/home.component';
 import { SidebarComponent } from './components/_layout/sidebar/sidebar.component';
 import { TopbarComponent } from './components/_layout/topbar/topbar.component';
+import { SigninComponent } from './components/signin/signin.component';
+import { SignupComponent } from './components/signup/signup.component';
+import { ProfileComponent } from './components/user/profile/profile.component';
+import { RequestResetComponent } from './components/password/request-reset/request-reset.component';
+import { ResponseResetComponent } from './components/password/response-reset/response-reset.component';
 
 
 @NgModule({
@@ -27,7 +32,12 @@ import { TopbarComponent } from './components/_layout/topbar/topbar.component';
     SiteLayoutComponent,
     HomeComponent,
     SidebarComponent,
-    TopbarComponent
+    TopbarComponent,
+    SigninComponent,
+    SignupComponent,
+    ProfileComponent,
+    RequestResetComponent,
+    ResponseResetComponent
   ],
   imports: [
     BrowserModule,
