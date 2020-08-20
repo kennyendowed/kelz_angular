@@ -33,6 +33,8 @@ const appRoutes: Routes = [
         ]
     },
 
+    
+
     //no layout routes
     { path: 'login', component: SigninComponent},
     { path: 'register', component: SignupComponent },
