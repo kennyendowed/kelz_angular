@@ -6,7 +6,9 @@
 /ignore
 /laravel-jwt-auth
 /startbootstrap-sb-admin-2-gh-pages
-
+/startbootstrap-business-frontpage-gh-pages
+/bootstrap4-offline-docs-4.4
+/pap
 # System Files
 .DS_Store
 Thumbs.db
